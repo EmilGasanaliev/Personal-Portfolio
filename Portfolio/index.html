@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+       
+        <button class="nav-toggle"aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Mis Servicios</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Sobre Mi</a></li>
+             </ul> 
+        </nav>
+    </header>
+
+    <!---Introduccion-->
+
+<section class="intro" >
+    <h1 class="section__title section__title--intro">
+        Hola, Soy <strong>Emil Gasanaliev</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Desarollador Front-End</p>
+    <img src="./pic/me.jpg" alt="" class="intro__img">
+</section>
+
+    <!--Mis Servicios-->
+    <section class="my-services" id="services">
+         <h2 class="section__title section__title--services">Lo que hago</h2>
+         <div class="services">
+             <div class="service">
+                 <h3>Diseño</h3>
+                 <p>Antes de empezar a desarollar, creo el diseño con Figma y Afinity Dessign. Tengo conocimentos basicos con otros programas de diseño como el Adobe XD y PhotoShop
+
+                </p>
+             </div> <!--/service-->
+
+             <div class="service">
+                 <h3>Desarollo</h3>
+                 <p>Despues de terminar los diseños, paso a Visual Code Studio para desarollar el proyecto usando HTML, CSS y JavaScript
+
+                </p>
+             </div> <!--/service-->
+
+             <div class="service">
+                 <h3>WordPress</h3>
+                 <p>Tambien poseo cierta experiencia en CMS como WordPress y plugin como Elementor. Todavia no tengo proyecto real desarollado, pero tengo experiencia creando proyecto en el host local</p>
+             </div> <!--/service-->
+         </div> <!--/Services-->
+
+         <a href="https://github.com/EmilGasanaliev"target="_blank" class="btn">Mis Proyectos</a>
+    </section>
+
+        <!--Sobre Mi-->
+
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Quien Soy</h2>
+            <p class="section__subtitle section__subtitle--about">Diseñador y Desarollador Web</p>
+
+            <div class="about-me__body">
+                <p>Me llamo Emil y soy de Rusia. Vivo en España desde mas de 20 años. En el ultimo año me he dedicado a estudiar el desarollo web y he aprendido los lenguajes como HTML, CSS y JavaScript. Actualmente me estoy formando en la libreria React JS, estoy en los principios basicos y a continuacion quiero aprender la parte back-end del desarollo web con PHP y MySQL.</p>
+                <p>Tengo 36 años y mi nivel de Español y Ruso es bilingüe y nivel alto en Inglès.
+                    Si cree que coincido con el perfil que estan buscando, no dude en contactar conmigo. Muchas gracias por su atencion
+                </p>
+            </div>
+
+           <img src="./pic/programming-593312_1920.jpg" alt=""class="about-me__img">
+        </section>  
+
+
+       
+            <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:gasanalievemil@gmail.com"class="footer__link">Gasanalievemil@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" 
+            href="https://github.com/EmilGasanaliev"target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" 
+                href="https://twitter.com/Emo69211893"target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" 
+                href="https://www.linkedin.com/in/emil-gasanaliev-b29b741b7/"target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
